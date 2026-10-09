@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artists &amp; Releases | Digital Divide Records</title>
+  <meta name="description" content="Digital Divide Records — independent South African House Music label. Meet the artist roster and explore every release." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Digital Divide Records — Home">
+        <img src="https://media.base44.com/images/public/6ac69ca83c38de10e6bdb50c/15bd966b6_ddrlogoblacktext.jpg" alt="Digital Divide Records logo" />
+      </a>
+      <nav class="nav-links">
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="index.html" class="nav-link active">Artists &amp; Releases</a>
+        <a href="submissions.html" class="nav-link">Contact Us &amp; Demo Submissions</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main">
+
+    <!-- Hero -->
+    <section class="hero">
+      <h1 class="hero-title">Artists <span class="amp">&amp;</span> Releases</h1>
+      <p class="hero-sub">
+        Cutting-edge underground house music from talented artists around the globe —
+        spanning Amapiano, Afro, Deep, Tech and more. Meet the roster and explore every
+        release, all in one place.
+      </p>
+    </section>
+
+    <!-- Promo banner -->
+    <section class="promo-banner" id="promoBanner">
+      <div class="banner-aura" aria-hidden="true"></div>
+      <div class="banner-ticker" aria-hidden="true" id="bannerTicker"></div>
+      <div class="banner-grid">
+        <div class="banner-cover-wrap">
+          <div class="banner-cover">
+            <img id="bannerCover" src="" alt="" />
+          </div>
+        </div>
+        <div class="banner-details">
+          <div class="banner-badges">
+            <span class="status-badge" id="statusBadge">
+              <span class="ping"></span><span id="statusLabel">Announced</span>
+            </span>
+            <span class="alert-text" id="alertText"></span>
+          </div>
+          <h2 class="banner-artist" id="bannerArtist"></h2>
+          <p class="banner-release-title" id="bannerTitle"></p>
+          <div class="countdown" id="countdown" aria-live="polite"></div>
+          <div class="phase-timeline" id="phaseTimeline"></div>
+          <div class="platform-ctas">
+            <a class="pill-link" href="https://www.beatport.com/label/digital-divide-records/100802" target="_blank" rel="noopener noreferrer">Beatport</a>
+            <a class="pill-link" href="https://volumo.com/label/345972-digital-divide-records" target="_blank" rel="noopener noreferrer">Volumo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roster -->
+    <section class="roster" id="roster">
+      <div class="roster-head">
+        <h2>Label Roster</h2>
+        <span class="roster-count" id="rosterCount"></span>
+      </div>
+      <div id="artists"></div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-heading">Connect With Us</h3>
+          <p class="footer-note">Follow us on social media for the latest updates &amp; releases.</p>
+          <div class="footer-pills">
+            <a class="footer-pill" href="https://www.facebook.com/DigitalDivideRecords/" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a class="footer-pill" href="https://instagram.com/digitaldividerecords" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a class="footer-pill" href="https://x.com/DigitalDivideRe" target="_blank" rel="noopener noreferrer">X</a>
+            <a class="footer-pill" href="https://soundcloud.com/digitaldividerecs" target="_blank" rel="noopener noreferrer">Soundcloud</a>
+            <a class="footer-pill" href="https://www.mixcloud.com/Digital_Divide_Records/" target="_blank" rel="noopener noreferrer">Mixcloud</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="footer-heading">Download Stores</h3>
+          <div class="footer-pills">
+            <a class="footer-pill" href="https://www.beatport.com/label/digital-divide-records/100802" target="_blank" rel="noopener noreferrer">Beatport</a>
+            <a class="footer-pill" href="https://volumo.com/label/345972-digital-divide-records" target="_blank" rel="noopener noreferrer">Volumo</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="footer-heading">Legal</h3>
+          <div class="footer-legal">
+            <span>Privacy Policy</span>
+            <span>Terms &amp; Conditions</span>
+            <a href="submissions.html">Contact Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Logo — bottom right, above the divider -->
+      <div class="back-to-top-row">
+        <button type="button" class="back-to-top" aria-label="Back to top">
+          <img src="https://media.base44.com/images/public/6ac69ca83c38de10e6bdb50c/b26d208d3_ddrlogoblacktext.jpg" alt="Digital Divide Records — back to top" />
+        </button>
+      </div>
+
+      <!-- Divider + copyright -->
+      <div class="footer-divider">
+        <p class="copyright">© <span class="copyright-year">2026</span> Digital Divide Records. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="forms.js"></script>
+  <script src="main.js"></script>
+  <script src="home.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact Us &amp; Demo Submissions | Digital Divide Records</title>
+        <meta name="description"
+            content="Send your demo to Digital Divide Records or drop us a message — general enquiries, licensing, collaborations & more." />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <header class="site-nav">
+            <div class="nav-inner">
+                <a href="index.html" class="nav-logo" aria-label="Digital Divide Records — Home">
+                    <img src="https://media.base44.com/images/public/6ac69ca83c38de10e6bdb50c/15bd966b6_ddrlogoblacktext.jpg"
+                        alt="Digital Divide Records logo" />
+                </a>
+                <nav class="nav-links">
+                    <a href="about.html" class="nav-link">About Us</a>
+                    <a href="index.html" class="nav-link">Artists &amp; Releases</a>
+                    <a href="submissions.html" class="nav-link active">Contact Us &amp; Demo Submissions</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="sub-main">
+
+            <h1 class="sub-title">Get In <span class="accent">Touch</span></h1>
+            <p class="sub-lead">Send us your demo or drop us a message — choose what you need below.</p>
+
+            <!-- Toggle -->
+            <div class="toggle" role="tablist">
+                <button type="button" class="tab-btn active" data-tab="demo" role="tab" aria-selected="true">
+                    Demo Submissions
+                </button>
+                <button type="button" class="tab-btn" data-tab="contact" role="tab" aria-selected="false">
+                    Contact Us
+                </button>
+            </div>
+
+            <!-- Demo form -->
+            <div class="form-card" id="panel-demo">
+                <h2 class="form-heading">Submit Your Demo</h2>
+                <p class="form-lead">Share a private SoundCloud link — we listen to everything.</p>
+                <form id="demoForm">
+                    <div class="form-field">
+                        <label class="form-label" for="demo-name">Name &amp; Surname *</label>
+                        <input class="form-input" id="demo-name" name="full_name" required
+                            placeholder="e.g. John Smith" />
+                    </div>
+                    <div class="form-field">
+                        <label class="form-label" for="demo-artist">Artist Name *</label>
+                        <input class="form-input" id="demo-artist" name="artist_name" required
+                            placeholder="Your artist alias" />
+                    </div>
+                    <div class="form-field">
+                        <label class="form-label" for="demo-track">Track Name *</label>
+                        <input class="form-input" id="demo-track" name="track_name" required
+                            placeholder="Track title" />
+                    </div>
+                    <div class="form-field">
+                        <label class="form-label" for="demo-link">SoundCloud Private Link *</label>
+                        <input class="form-input" id="demo-link" name="soundcloud_link" type="url" required
+                            placeholder="https://soundcloud.com/your-private-track-link" />
+                    </div>
+                    <div class="form-field">
+                        <label class="form-label" for="demo-email">Email Address *</label>
+                        <input class="form-input" id="demo-email" name="email" type="email" required
+                            placeholder="you@example.com" />
+                    </div>
+                    <p class="form-error"></p>
+                    <button type="submit" class="btn-primary">Submit Demo</button>
+                </form>
+            </div>
+
+            <!-- Contact form -->
+            <div class="form-card hidden" id="panel-contact">
+                <h2 class="form-heading">Contact Us</h2>
+                <p class="form-lead">General enquiries, licensing, collaborations &amp; more.</p>
+                <form id="contactForm">
+                    <div class="form-field">
+                        <label class="form-label" for="contact-name">Name &amp; Surname *</label>
+                        <input class="form-input" id="contact-name" name="full_name" required
+                            placeholder="e.g. Jane Doe" />
+                    </div>
+                    <div class="form-field">
+                        <label class="form-label" for="contact-email">Email Address *</label>
+                        <input class="form-input" id="contact-email" name="email" type="email" required
+                            placeholder="you@example.com" />
+                    </div>
+                    <div class="form-field">
+                        <label class="form-label" for="contact-country">Country *</label>
+                        <input class="form-input" id="contact-country" name="country" required
+                            placeholder="Your country" />
+                    </div>
+                    <div class="form-field">
+                        <label class="form-label" for="contact-type">Enquiry Type *</label>
+                        <select class="form-select" id="contact-type" name="enquiry_type" required>
+                            <option value="" disabled selected>Select an enquiry type...</option>
+                            <option value="General Enquiry">General Enquiry</option>
+                            <option value="Track Licensing Request">Track Licensing Request</option>
+                            <option value="Endorsement/Sponsorship">Endorsement/Sponsorship</option>
+                            <option value="Collaboration">Content Collaboration</option>
+                            <option value="Share-Ownership/Investment">Share-Ownership/Investment</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label class="form-label" for="contact-details">Request Details *</label>
+                        <textarea class="form-textarea" id="contact-details" name="details" rows="5" required
+                            placeholder="Tell us more about your enquiry..."></textarea>
+                    </div>
+                    <p class="form-error"></p>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="footer-inner">
+                <div class="footer-grid">
+                    <div>
+                        <h3 class="footer-heading">Connect With Us</h3>
+                        <p class="footer-note">Follow us on social media for the latest updates &amp; releases.</p>
+                        <div class="footer-pills">
+                            <a class="footer-pill" href="https://www.facebook.com/DigitalDivideRecords/" target="_blank"
+                                rel="noopener noreferrer">Facebook</a>
+                            <a class="footer-pill" href="https://instagram.com/digitaldividerecords" target="_blank"
+                                rel="noopener noreferrer">Instagram</a>
+                            <a class="footer-pill" href="https://x.com/DigitalDivideRe" target="_blank"
+                                rel="noopener noreferrer">X</a>
+                            <a class="footer-pill" href="https://soundcloud.com/digitaldividerecs" target="_blank"
+                                rel="noopener noreferrer">Soundcloud</a>
+                            <a class="footer-pill" href="https://www.mixcloud.com/Digital_Divide_Records/"
+                                target="_blank" rel="noopener noreferrer">Mixcloud</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="footer-heading">Download Stores</h3>
+                        <div class="footer-pills">
+                            <a class="footer-pill" href="https://www.beatport.com/label/digital-divide-records/100802"
+                                target="_blank" rel="noopener noreferrer">Beatport</a>
+                            <a class="footer-pill" href="https://volumo.com/label/345972-digital-divide-records"
+                                target="_blank" rel="noopener noreferrer">Volumo</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="footer-heading">Legal</h3>
+                        <div class="footer-legal">
+                            <span>Privacy Policy</span>
+                            <span>Terms &amp; Conditions</span>
+                            <a href="submissions.html">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo — bottom right, above the divider -->
+                <div class="back-to-top-row">
+                    <button type="button" class="back-to-top" aria-label="Back to top">
+                        <img src="https://media.base44.com/images/public/6ac69ca83c38de10e6bdb50c/b26d208d3_ddrlogoblacktext.jpg"
+                            alt="Digital Divide Records — back to top" />
+                    </button>
+                </div>
+
+                <!-- Divider + copyright -->
+                <div class="footer-divider">
+                    <p class="copyright">© <span class="copyright-year">2026</span> Digital Divide Records. All Rights
+                        Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/data.js"></script>
+        <script src="js/forms.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/submissions.js"></script>
+    </body>
+
+</html>
