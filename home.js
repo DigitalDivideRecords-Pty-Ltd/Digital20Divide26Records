@@ -128,8 +128,9 @@
               (artist.aka ? '<p class="artist-aka">aka ' + escapeHtml(artist.aka) + "</p>" : "") +
               '<p class="artist-bio">' + escapeHtml(artist.bio) + "</p>" +
               '<div class="artist-meta">' +
-                '<span class="artist-count">' + artist.releases.length + (artist.releases.length !== 1 ? " Releases" : " Release") + "</span>" +
-                '<a class="artist-link" href="' + artist.link + '" target="_blank" rel="noopener noreferrer">View Artist ↗</a>' +
+              '<span class="artist-count">' + artist.releases.length + (artist.releases.length !== 1 ? " Releases" : " Release") + "</span>" +
+              //JAVASCRIPT INJECTED ARTIST LINK
+              //'<a class="artist-link" href="' + artist.link + '" target="_blank" rel="noopener noreferrer">View Artist ↗</a>' +
               "</div>" +
             "</div>" +
           "</div>" +
