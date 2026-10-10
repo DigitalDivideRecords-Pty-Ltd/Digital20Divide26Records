@@ -16,7 +16,7 @@ const ARTISTS = [
   {
     name: "Adam Jesse",
     aka: "Harmony Mills",
-    bio: "Adam Jesse aka Harmony Mills is an Australian DJ & Producer. His music is a blend of electro house, coupled with funky vocals. He has upcoming releases on Mojoheadz Records, as well as Digital Divide Records.",
+    bio: "Adam Jesse aka Harmony Mills is an Australian DJ & Producer. His music is a blend of electro house, coupled with funky vocals. He has releases on Mojoheadz Records, as well as Digital Divide Records.",
     //link: "https://www.junodownload.com/artists/Adam+Jesse-harmony+Mills/",
     releases: [
       { title: "Headcase", catalog: "DDR022", date: "08/12/2023", cover: img("headcase.jpg"), beatport: "https://www.beatport.com/release/headcase/4799076" },
@@ -42,7 +42,7 @@ const ARTISTS = [
   },
   {
     name: "DJ Jonnas",
-    bio: "DJ Jonnas is a South African Based DJ & Producer. His sound is a mixture of minimal, tech house & techno grooves. His catalogue includes techno, tech house & minimal house releases on Nova Music Group, Visiomind Records & Labelworx compilations.",
+    bio: "DJ Jonnas is a South African Based DJ & Producer. His sound is a mixture of deep, minimal, tech house & techno grooves. His catalogue includes deep, techno, tech house & minimal house releases on Ghost District Records, Nova Music Group, Visiomind Records & Labelworx compilations.",
     //link: "https://www.beatport.com/artist/dj-jonnas/656568",
     releases: [
       { title: "In The Rhythm Of Love", catalog: "DDR026", date: "24/10/2025", cover: img("IMG_20250924_212610_(3000_x_3000_pixel).jpg"), beatport: "https://www.beatport.com/release/in-the-rhythm-of-love/5446415" },
